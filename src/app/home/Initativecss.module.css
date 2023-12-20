@@ -1,0 +1,62 @@
+.initative{
+    background-color: black;
+    width: 100%;
+    padding: 5%;
+}
+
+.header{
+color: #FFF;
+font-family: Poppins;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 144px; /* 205.714% */
+width: 100%;
+text-align: center;
+}
+
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bodyheader{
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120px; /* 300% */
+width: 100%;
+text-align: center;
+}
+
+.carousel{
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.button{
+    color: #FFF7F7;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 210px;
+height: 25px;
+flex-shrink: 0;
+
+z-index: 1;
+    border-radius: 10px;
+    background-color: #000056;
+    width: 20%;
+    height: 100%;
+    flex-shrink: 0;
+    min-width: 100px;
+    min-height: 30px;
+}
