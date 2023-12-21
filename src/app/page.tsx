@@ -7,7 +7,6 @@ import Gallery from "./home/Gallery";
 import Gifpage from "./home/Gifpage";
 import Initiative from "./home/Initiative";
 import Ourteam from "./home/Ourteam";
-
 export default function Home() {
   return (
     <div>
@@ -15,8 +14,8 @@ export default function Home() {
       <AboutUs />
       <Initiative />
       <Events />
-      <Gallery />
       <Ourteam />
+      <Gallery />
       <Contactus />
     </div>
   );

@@ -65,6 +65,28 @@ let data = [
       email: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
       imgsource: "/team/i6.jpg",
     },
+    {
+      id: 7,
+      name: "pta kar lo",
+      role: "pta karo",
+      description: "hall aao",
+      facebooklink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      instalink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      twitterlink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      email: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      imgsource: "/team/i6.jpg",
+    },
+    {
+      id: 8,
+      name: "pta kar lo",
+      role: "pta karo",
+      description: "hall aao",
+      facebooklink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      instalink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      twitterlink: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      email: "https://www.youtube.com/watch?v=zzGEbXwOcLM",
+      imgsource: "/team/i6.jpg",
+    },
   ];
   
   export default data;
