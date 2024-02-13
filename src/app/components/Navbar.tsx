@@ -48,8 +48,8 @@ const Navbar = () => {
           <Link href="/" className="text-2xl text-cyan-600 font-bold">
             <Image
               src="/logo.png"
-              height={100}
-              width={200}
+              height={500}
+              width={500}
               alt="logo"
               className={styles.logo}
             />
@@ -68,27 +68,27 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="pb-6 text-xl  py-2 md:px-6 text-center   hover:text-black text-black md:hover:text-black ">
-              <Link href="#aboutus" onClick={() => setNavbar(!navbar)}>
+              <Link href="/#aboutus" onClick={() => setNavbar(!navbar)}>
                 About
               </Link>
             </div>
             <div className="pb-6 text-xl  py-2 md:px-6 text-center   hover:text-black text-black md:hover:text-black ">
-              <Link href="#gallery" onClick={() => setNavbar(!navbar)}>
+              <Link href="/#gallery" onClick={() => setNavbar(!navbar)}>
                 Gallery
               </Link>
             </div>
             <div className="pb-6 text-xl  py-2 md:px-6 text-center   hover:text-black text-black md:hover:text-black ">
-              <Link href="#ourteam" onClick={() => setNavbar(!navbar)}>
+              <Link href="/#ourteam" onClick={() => setNavbar(!navbar)}>
                 Team
               </Link>
             </div>
             <div className="pb-6 text-xl  py-2 md:px-6 text-center   hover:text-black text-black md:hover:text-black ">
-              <Link href="#initiative" onClick={() => setNavbar(!navbar)}>
+              <Link href="/#initiative" onClick={() => setNavbar(!navbar)}>
                 Initiative
               </Link>
             </div>
             <div className="pb-6 text-xl  py-2 md:px-6 text-center   hover:text-black text-black md:hover:text-black ">
-              <Link href="#contactus" onClick={() => setNavbar(!navbar)}>
+              <Link href="/#contactus" onClick={() => setNavbar(!navbar)}>
                 Contact us
               </Link>
             </div>

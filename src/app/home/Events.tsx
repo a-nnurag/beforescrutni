@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Eventscss.module.css";
 import data from "../schema/events";
 import Eventcontainer from "../components/Eventcontainer";
+import Link from "next/link";
 
 const Events = () => {
   return (
@@ -21,7 +22,9 @@ const Events = () => {
           );
         })}
       </div>
-      <button className={styles.button}>Explore</button>
+      <Link href="/events">
+        <button className={styles.button}>Explore</button>
+      </Link>
     </div>
   );
 };

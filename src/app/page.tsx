@@ -14,8 +14,8 @@ export default function Home() {
       <AboutUs />
       <Initiative />
       <Events />
-      <Ourteam />
       <Gallery />
+      <Ourteam />
       <Contactus />
     </div>
   );

@@ -2,23 +2,23 @@ let data = [
   {
     id: 1,
     src: "/gallery/i1.jpg",
-    title: "dekh lo bhai",
+    title: "Ewoke",
     descritption:
-      "i am knknwd i am from ndkvnek currently i reside in njdvkrne room no bskce my hobby include lknelrn",
+      "Ewoke, a vibrant induction program, ignites entrepreneurial spirit in freshers. CEO speakers share insights, fostering knowledge and inspiration. Engaging activities like auction bidding, logo guessing, and team coordination add a playful touch, creating an immersive and empowering experience for budding talents",
   },
   {
     id: 2,
     src: "/gallery/i2.jpg",
-    title: "dekh lo bhai",
+    title: "Hult",
     descritption:
-      "i am knknwd i am from ndkvnek currently i reside in njdvkrne room no bskce my hobby include lknelrn",
+      "Our club proudly hosts the Hult Prize pitchdeck competition, a global stage where we represent our city’s innovative minds. It’s a dynamic platform fostering creativity and solutions, propelling our community onto the international entrepreneurial scene.",
   },
   {
     id: 3,
     src: "/gallery/i3.jpg",
-    title: "dekh lo bhai",
+    title: "Prarambh",
     descritption:
-      "i am knknwd i am from ndkvnek currently i reside in njdvkrne room no bskce my hobby include lknelrn",
+      "Experience entrepreneurship like never before at Prarambh, our exclusive bootcamp. Elevate your pitch directly to investors across different tiers, unlocking genuine investment opportunities and propelling your startup dreams into reality.",
   },
 ];
 

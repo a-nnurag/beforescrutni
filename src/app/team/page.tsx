@@ -1,10 +1,9 @@
 import React from "react";
-import Link from "next/link";
-import styles from "./Ourteamcss.module.css";
+import data from "../schema/wholeteam";
 import Biocard from "../components/Biocard";
-import data from "../schema/team";
+import styles from "./WholeTeam.module.css";
 
-const Ourteam = () => {
+const page = () => {
   return (
     <div id="ourteam" className={styles.ourteam}>
       <header className={styles.header}>Our Team</header>
@@ -27,11 +26,8 @@ const Ourteam = () => {
           );
         })}
       </div>
-      <Link href="/team">
-        <button className={styles.button}>Explore</button>
-      </Link>
     </div>
   );
 };
 
-export default Ourteam;
+export default page;

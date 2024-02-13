@@ -9,21 +9,21 @@ const Footer = () => {
       <div className={styles.upper}>
         <div className={styles.icons}>
           <Link href="/" className={styles.icon}>
-            <Image src="/facebook.png" height={64} width={64} alt="facebook" />
+            <Image src="/facebook.png" height={44} width={44} alt="facebook" />
           </Link>
           <Link href="/" className={styles.icon}>
             <Image
               src="/instagram.png"
-              height={64}
-              width={64}
+              height={44}
+              width={44}
               alt="instagram"
             />
           </Link>
           <Link href="/" className={styles.icon}>
-            <Image src="/linkedin.png" height={64} width={64} alt="linkedin" />
+            <Image src="/linkedin.png" height={44} width={44} alt="linkedin" />
           </Link>
           <Link href="/" className={styles.icon}>
-            <Image src="/twitter.png" height={64} width={64} alt="twitter" />
+            <Image src="/twitter.png" height={44} width={44} alt="twitter" />
           </Link>
         </div>
         <div className={styles.firstline}>Join the EDC Community</div>
@@ -31,7 +31,6 @@ const Footer = () => {
           Join our 1,000,000+ person community and contribute to a more private
           and decentralized internet.
         </div>
-        <button className={styles.thirdline}>Join the Discord</button>
       </div>
 
       <div className={styles.lower}>
@@ -69,11 +68,11 @@ const Footer = () => {
         </div>
         <div className={styles.row}>
           <header className={styles.header}>Company</header>
-          <Link href="#aboutus" className={styles.link}>
+          <Link href="/#aboutus" className={styles.link}>
             {" "}
             About
           </Link>
-          <Link href="/contact" className={styles.link}>
+          <Link href="/#contactus" className={styles.link}>
             Contact
           </Link>
           <Link href="/blogs" className={styles.link}>
@@ -82,29 +81,11 @@ const Footer = () => {
         </div>
         <div className={styles.row}>
           <header className={styles.header}>Legal</header>
-          <Link href="privacypolicy" className={styles.link}>
+          <Link href="/privacypolicy" className={styles.link}>
             Privacy Policy
           </Link>
-          <Link href="tandc" className={styles.link}>
+          <Link href="/tandc" className={styles.link}>
             Terms & Conditions
-          </Link>
-          <Link href="termsofuse" className={styles.link}>
-            Terms of Use
-          </Link>
-          <Link href="Refund Policy" className={styles.link}>
-            Refund Policy
-          </Link>
-        </div>
-        <div className={styles.row}>
-          <header className={styles.header}>Quick Links</header>
-          <Link href="/" className={styles.link}>
-            Techlabz Keybox
-          </Link>
-          <Link href="/downloads" className={styles.link}>
-            Downloads
-          </Link>
-          <Link href="/forum" className={styles.link}>
-            Forum
           </Link>
         </div>
       </div>
